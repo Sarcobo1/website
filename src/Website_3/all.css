@@ -441,6 +441,7 @@
     border: 1px solid #39B54A;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 .box2{
     border: 1px solid #121212;
