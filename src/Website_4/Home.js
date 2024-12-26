@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import "./all.css"
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import Future from "./Future";
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
            <div className="btn"><button>Download</button></div>
            <div className="icon"><button><PlayArrowIcon/></button></div>
            <div className="img_1"><img src="https://preview.colorlib.com/theme/appco/assets/img/hero/hero_right.png" alt="" /></div>
+            <Future/>
         </>
     )
 }
